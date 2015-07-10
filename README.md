@@ -1,3 +1,14 @@
+### Installing
+
+Add this to your `build.sbt`
+```scala
+libraryDependencies += "joelf.helpers" %% "scala-helpers" % "0.0.1"
+
+val joelfHelpersUrl = url("https://raw.githubusercontent.com/jnfeinstein/scala-helpers/master/releases")
+
+resolvers += Resolver.url("scala-helpers", joelfHelpersUrl)(Resolver.ivyStylePatterns)
+```
+
 ### Usage
 
 ```scala
